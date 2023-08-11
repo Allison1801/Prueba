@@ -1,0 +1,38 @@
+INSERT INTO Usuario (nombre, telefono, correo, contrseña)
+VALUES ('Juan Pérez', '123456789', 'juan@example.com', 'contraseñaABC');
+
+-- Insertar otro usuario
+INSERT INTO Usuario (nombre, telefono, correo, contrseña)
+VALUES ('María López', '987654321', 'maria@example.com', 'clave456');
+
+
+-- Insertar productos
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Camisa a rayas', 29.99, 'Disponible', 'Camisa de manga larga a rayas...', 'camisa_rayas.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Pantalones vaqueros', 39.95, 'Agotado', 'Jeans de corte slim para hombres...', 'pantalones_jeans.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Zapatillas deportivas', 59.99, 'Disponible', 'Zapatillas cómodas para entrenamiento...', 'zapatillas_deportivas.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Vestido elegante', 79.99, 'Disponible', 'Vestido negro elegante para ocasiones especiales...', 'vestido_elegante.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Reloj de pulsera', 149.50, 'Disponible', 'Reloj de pulsera analógico de acero inoxidable...', 'reloj_pulsera.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Bolso de cuero', 89.95, 'Disponible', 'Bolso de cuero genuino con múltiples compartimentos...', 'bolso_cuero.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Gafas de sol', 19.99, 'Disponible', 'Gafas de sol con montura negra y lentes polarizadas...', 'gafas_sol.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Chaqueta de invierno', 129.00, 'Disponible', 'Chaqueta impermeable y abrigada para el invierno...', 'chaqueta_invierno.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Botines de cuero', 69.95, 'Disponible', 'Botines de cuero con suela antideslizante...', 'botines_cuero.jpg');
+
+INSERT INTO Producto (descripcion, precio, estado, detalle, imagen)
+VALUES ('Bufanda tejida', 24.50, 'Disponible', 'Bufanda suave y cálida tejida a mano...', 'bufanda_tejida.jpg');
