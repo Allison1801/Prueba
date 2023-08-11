@@ -1,0 +1,17 @@
+
+<div class="container mt-5">
+    <h2 class="mb-4">Productos</h2>
+    <div class="d-flex justify-content-center align-items-start flex-wrap">
+      <div class="card m-3 shadow-sm" style="width: 18rem;" *ngFor="let producto of productos">
+        <div class="card-body text-center"> <!-- Agregado 'text-center' para centrar el contenido -->
+          <h5 class="card-title">{{ producto.descripcion }}</h5>
+          <p class="card-text">Precio: {{ producto.precio | currency }}</p>
+          <p class="card-text">Estado: {{ producto.estado ? 'Disponible' : 'No disponible' }}</p>
+          <button class="btn btn-primary">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
